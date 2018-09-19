@@ -2,7 +2,6 @@
 -export([main/0]).
 -import(os, [getenv/1]).
 
-% Complete the countingValleys function below.
 countingValleys(N, S) ->
     countingValleys(0, 0, S).
 

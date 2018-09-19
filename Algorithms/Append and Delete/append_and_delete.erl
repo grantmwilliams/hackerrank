@@ -2,7 +2,6 @@
 -export([main/0]).
 -import(os, [getenv/1]).
 
-% Complete the appendAndDelete function below.
 appendAndDelete(S, T, K) ->
         
     N = getCommonPrefix(S, T, 0),

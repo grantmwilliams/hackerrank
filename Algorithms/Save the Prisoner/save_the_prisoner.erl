@@ -2,7 +2,6 @@
 -export([main/0]).
 -import(os, [getenv/1]).
 
-% Complete the saveThePrisoner function below.
 saveThePrisoner(N, M, S) ->
     ((S + M - 2) rem N)+1.
 
